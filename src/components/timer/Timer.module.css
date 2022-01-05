@@ -1,0 +1,98 @@
+.container{
+    display: block;
+    width: 620px; 
+    height: 567px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.box{
+    width: 480px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 0px 30px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Montserrat;
+
+}   
+
+.buttons{
+    display: inline;
+}
+
+.button{
+    border: none;
+    color: white;
+    margin: 0px;
+    border-radius: 4px;
+    font-family: ArialRounded;
+    font-size: 16px;
+    height: 28px;
+    cursor: pointer;
+    background: none;
+    box-shadow: none;
+    font-weight: 300;
+    
+}
+
+
+
+.button:hover {
+    background-color: #4CAF50;
+
+    /* color: white;
+    opacity: 1;
+    font-weight: bold; */
+}
+
+.timer{
+    margin: 10px;
+    font-size: 120px;
+    font-weight: bold;
+}
+.time{
+    margin:10px;
+}
+
+.start-buttonbox{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+}
+.start-button{
+    cursor: pointer;
+    border: none;
+    margin: 20px 0px 0px;
+    padding: 0px 12px;
+    border-radius: 4px;
+    box-shadow: rgb(235 235 235) 0px 6px 0px;
+    font-family: ArialRounded;
+    font-size: 22px;
+    height: 55px;
+    color: rgb(217, 85, 80);
+    font-weight: bold;
+    width: 200px;
+    background-color: white;
+    transition: color 0.5s ease-in-out 0s;
+}
+
+.counterbox{
+    font-size: 16px;
+    opacity: 0.6;
+    text-align: center;
+    margin: 0px 0px 4px;
+
+}
+
+.focus{
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+    overflow-wrap: break-word;
+
+}
