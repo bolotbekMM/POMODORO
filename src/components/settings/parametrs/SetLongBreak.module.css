@@ -3,9 +3,8 @@
     padding: 20px 0px;
     min-height: 30px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-top: 1px solid rgba(182, 165, 166, 0.2);
+    justify-content: space-between;
+    border-top: 0.1px solid rgba(182, 165, 166, 0.466);
 
 
 }
@@ -14,28 +13,8 @@
     color: rgb(85, 85, 85);
     font-weight: bold;
     display: flex;
+    -webkit-box-align: center;
     align-items: center;
-}
-
-.container{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.input-box{
-    width: 98px;
-    margin: 0px;
-
-
-}
-
-.lable{
-    display: block;
-    font-size: 14px;
-    color: rgb(187, 187, 187);
-    font-weight: bold;
-    margin-bottom: 4px;
 }
 
 .input{
@@ -48,6 +27,5 @@
     color: rgb(85, 85, 85);
     width: 100%;
     box-sizing: border-box;
-
-
+    width: 70px;
 }

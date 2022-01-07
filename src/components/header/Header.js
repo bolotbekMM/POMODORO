@@ -4,7 +4,7 @@ import titleImage from '../../assests/icon-white.png'
 import settingImg from '../../assests/settingImg.png'
 import reportImg from '../../assests/reportImg.png'
 
-const Header = () => {
+const Header = (props) => {
     return (
         <div className={classes['main-header']}>
         <div className={classes.header}>
@@ -13,7 +13,7 @@ const Header = () => {
                 <p>Pomofocus</p>
             </div>
             <div className={classes.buttons}>
-                <button className={classes.button}>
+                <button onClick={props.onShowModal} className={classes.button}>
                     <img className={classes.icons} src={settingImg} alt='settingIcon'/>Settings</button>
                 <button className={classes.button}>
                     <img className={classes.icons} src={reportImg} alt='reportIcon'/>Report</button>

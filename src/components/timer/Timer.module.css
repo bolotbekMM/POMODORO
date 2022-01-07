@@ -1,52 +1,51 @@
 .container{
-    display: block;
-    width: 620px; 
-    height: 567px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
 }
 
 .box{
     width: 480px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
     padding: 20px 0px 30px;
     border-radius: 6px;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     font-family: Montserrat;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
 
 }   
 
 .buttons{
     display: inline;
+    
 }
 
 .button{
     border: none;
     color: white;
     margin: 0px;
+    padding: 2px 12px;
     border-radius: 4px;
     font-family: ArialRounded;
-    font-size: 16px;
+    font-size: 18px;
     height: 28px;
     cursor: pointer;
     background: none;
-    box-shadow: none;
     font-weight: 300;
+    }
+
+
+.button:focus{
+    background: rgba(0, 0, 0, 0.15);
+    /* font-weight: bold; */
     
 }
 
+.button:active{
+    transform: translateY(2px);
 
-
-.button:hover {
-    background-color: #4CAF50;
-
-    /* color: white;
-    opacity: 1;
-    font-weight: bold; */
 }
 
 .timer{
@@ -78,21 +77,19 @@
     font-weight: bold;
     width: 200px;
     background-color: white;
-    transition: color 0.5s ease-in-out 0s;
 }
 
-.counterbox{
-    font-size: 16px;
-    opacity: 0.6;
-    text-align: center;
-    margin: 0px 0px 4px;
 
+
+
+.counterbox p{
+    margin: 0px;
 }
 
-.focus{
+
+.focus p{
+    margin: 0px;
     font-size: 18px;
     font-weight: 100;
     color: white;
-    overflow-wrap: break-word;
-
 }
